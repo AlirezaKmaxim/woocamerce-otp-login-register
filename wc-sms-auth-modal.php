@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
 
 // تعریف ثابت نسخه افزونه.
 if ( ! defined( 'WC_SMS_AUTH_VERSION' ) ) {
-	define( 'WC_SMS_AUTH_VERSION', '1.1.9' );
+	define( 'WC_SMS_AUTH_VERSION', '1.2.0' );
 }
 
 // تعریف ثابت مسیر فیزیکی پوشه افزونه (با اسلش انتهایی).
@@ -353,7 +353,7 @@ final class WC_SMS_Auth_Modal_Main {
 				<!-- CLOSE BUTTON (Top Right - Primary Color) -->
 				<button
 					onclick="closeAuthModal()"
-					class="wc-sms-auth-btn-primary wc-sms-auth-close-btn absolute top-2 right-2 md:top-4 md:right-4 z-50 !w-[35px] !h-[35px] !p-0 flex items-center justify-center bg-[#E7A439] hover:bg-[#cf902f] text-[#FDF6EB] rounded-full shadow-md transition-all duration-200"
+					class="wc-sms-auth-btn-primary wc-sms-auth-close-btn absolute top-[10px] right-[10px] z-50 !w-[35px] !h-[35px] !p-0 flex items-center justify-center bg-[#E7A439] hover:bg-[#cf902f] text-[#FDF6EB] rounded-full shadow-md transition-all duration-200"
 					aria-label="بستن مودال"
 				>
 					<i data-lucide="x" class="w-5 h-5"></i>
@@ -387,7 +387,7 @@ final class WC_SMS_Auth_Modal_Main {
 				</h1>
 
 					<!-- FORM 1: REGISTER (ثبت نام در سایت) -->
-					<div id="signupForm" class="w-full max-w-[479px] mt-[70px] transition-all duration-500 transform translate-x-0 opacity-100 flex flex-col justify-center">
+					<div id="signupForm" class="w-full max-w-[479px] mt-[90px] transition-all duration-500 transform translate-x-0 opacity-100 flex flex-col justify-center">
 
 						<!-- STEP 1: Basic Information -->
 						<div id="signupStep1" class="transition-all duration-300 transform translate-x-0 opacity-100 flex flex-col justify-center space-y-5">
@@ -530,7 +530,7 @@ final class WC_SMS_Auth_Modal_Main {
 					</div>
 
 					<!-- FORM 2: LOGIN (ورود به سایت) -->
-					<div id="loginForm" class="w-full max-w-[479px] mt-[70px] hidden transition-all duration-500 transform translate-x-12 opacity-0 flex flex-col justify-center space-y-5">
+					<div id="loginForm" class="w-full max-w-[479px] mt-[90px] hidden transition-all duration-500 transform translate-x-12 opacity-0 flex flex-col justify-center space-y-5">
 						<div>
 							<!-- Form Content -->
 							<form id="loginSubmitForm" class="space-y-5 mt-[20px]">
