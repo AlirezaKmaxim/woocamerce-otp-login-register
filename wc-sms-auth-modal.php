@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
 
 // تعریف ثابت نسخه افزونه.
 if ( ! defined( 'WC_SMS_AUTH_VERSION' ) ) {
-	define( 'WC_SMS_AUTH_VERSION', '1.1.8' );
+	define( 'WC_SMS_AUTH_VERSION', '1.1.9' );
 }
 
 // تعریف ثابت مسیر فیزیکی پوشه افزونه (با اسلش انتهایی).
@@ -478,7 +478,7 @@ final class WC_SMS_Auth_Modal_Main {
 									</div>
 
 									<!-- Modern Countdown Timer Display & Resend Button -->
-									<div class="flex items-center justify-between max-w-[479px] px-1 py-2 text-sm">
+									<div class="wc-sms-auth-timer-row flex items-center justify-between max-w-[479px] px-1 py-2 text-sm">
 										<div class="text-[#555555] flex items-center">
 											<i data-lucide="timer" class="w-4 h-4 ml-1.5 text-gray-400"></i>
 											<span>زمان باقی‌مانده:</span>

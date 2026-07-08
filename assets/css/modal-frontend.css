@@ -138,6 +138,16 @@
 	top: 1.5px !important;
 }
 
+/* تضمین قرارگیری تایمر و دکمه ارسال مجدد در یک ردیف افقی مستقل از استایل‌های قالب */
+#authModal .wc-sms-auth-timer-row {
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	width: 100% !important;
+	max-width: 479px !important;
+}
+
 /* انتقال جزئی آیکون تایمر به سمت پایین جهت تراز شدن با متن فارسی */
 #authModal svg.lucide-timer,
 #authModal i[data-lucide="timer"] {
