@@ -84,8 +84,8 @@
 /* تضمین دایره‌ای بودن دکمه بستن و فاصله‌دهی دقیق آن از گوشه بالا راست پاپ‌آپ */
 #authModal button.wc-sms-auth-close-btn {
 	border-radius: 50% !important;
-	top: 10px !important;
-	right: 10px !important;
+	top: 20px !important;
+	right: 20px !important;
 }
 
 /* رنگ متن دکمه‌های لینک‌مانند «بازگشت به ورود» / «انصراف و بازگشت به
