@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
 
 // تعریف ثابت نسخه افزونه.
 if ( ! defined( 'WC_SMS_AUTH_VERSION' ) ) {
-	define( 'WC_SMS_AUTH_VERSION', '1.1.6' );
+	define( 'WC_SMS_AUTH_VERSION', '1.1.7' );
 }
 
 // تعریف ثابت مسیر فیزیکی پوشه افزونه (با اسلش انتهایی).

@@ -131,6 +131,13 @@
 	align-items: center !important;
 }
 
+/* انتقال جزئی آیکون دکمه ارسال مجدد به سمت پایین برای تراز شدن با baseline متن فارسی */
+#authModal #resend-code-btn svg,
+#authModal #resend-code-btn i {
+	position: relative !important;
+	top: 1.5px !important;
+}
+
 #authModal #resend-code-btn:disabled {
 	color: #9CA3AF !important;
 	cursor: not-allowed !important;
